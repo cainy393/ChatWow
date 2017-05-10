@@ -1,0 +1,196 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1); 
+}
+::-webkit-scrollbar-thumb {
+    background:  rgba(50, 50, 50, 0.75)
+}
+.dark {
+	background: #000;
+	color: #eee;
+}
+.dark .sidebar, .dark .dropdown-menu {
+	background: #222;
+}
+.dark .chat-area, .dark .bar {
+	background-color: #333;
+}
+.dark .chat-bar {
+	background: #111;
+}
+.dark input:not([type="submit"]) {
+	background: #080808;
+	border-color: #000;
+}
+.dark .chat-line:hover {
+	background: #282828;
+}
+.dark nav {
+	background: #111;
+	border-color: #000;
+}
+.dark .dropdown-menu a {
+	color: #fff;
+}
+.dark .modal-content {
+	background: #222;
+}
+.dark .modal-header {
+	border-color: #000;
+}
+.dark .nav-pills a:hover {
+	background: #181818;
+}
+.dark .nav-pills .active a {
+	background: #080808;
+}
+.dark .nav-pills .active a:hover {
+	background: #080808;
+}
+.dark .chat-line {
+	border-bottom: 1px solid #292929;
+}
+.dark .chat-line .message {
+	border-left: 1px solid #292929;
+}
+.dark #banner {
+	background: #333;
+	border-bottom: 1px solid #111;
+}
+.sidebar {
+    background: #ddd;
+    position: absolute;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+	padding: 10px;
+	overflow-y: scroll;
+}
+#banner {
+	background: #eee;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	height: 20px;
+	padding: 2px;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+}
+.sidebar form {
+	margin: 10px 0;
+}
+.room {
+	cursor: pointer;
+}
+.nav-pills li a {
+	padding: 5px !important;
+}
+.mentioned {
+	background: #d9534f !important;
+}
+.bar {
+	background-image: url('abback.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #eee;
+	position: absolute;
+	top: 70px;
+	left: 250px;
+	right: 0;
+	height: 60px;
+}
+.chat-area {
+	background: #eee;
+	position: absolute;
+	top: 130px;
+	left: 250px;
+	right: 0;
+	bottom: 40px;
+	overflow-y: scroll;
+	padding: 10px
+}
+.chat-bar {
+	position: absolute;
+	left: 250px;
+	right: 0;
+	bottom: 0;
+	height: 40px;
+	background: #ccc;
+	padding: 3px 5px;
+}
+.chat-line {
+	border-bottom: 1px solid #e4e4e4;
+}
+.chat-line:after {
+	clear: both;
+}
+.chat-line:hover {
+	background: #d8d8d8;
+}
+.chat-line .user {
+	width: 120px;
+	float: left;
+	overflow-x: hidden;
+	cursor: pointer;
+}
+.chat-line small {
+	font-size: 10px;
+	color: #666;
+}
+.cbadge {
+	padding-left: 20px;
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+}
+.alert {
+	position: fixed;
+	top: 75px;
+	left: 255px;
+	z-index: 1000;
+}
+.chat-line .message {
+	margin-left: 120px;
+	padding-left: 2px;
+	border-left: 1px solid #e4e4e4;
+	overflow-x: hidden;
+	min-height: 21px;
+}
+.color {
+	cursor: pointer;
+}
+.smiley {
+	display: inline-block;
+	background-image: url('new-smilies.png');
+	height: 16px;
+	width: 16px;
+	margin: -3px 2px;
+}
+
+.smile		{ background-position: 0 0; }
+.tongue		{ background-position: -16px 0; }
+.wink		{ background-position: -32px 0; }
+.wow		{ background-position: -48px 0; }
+
+.sad		{ background-position:  0 -16px; }
+.flat		{ background-position: -16px -16px; }
+.meh		{ background-position: -32px -16px; }
+.huh		{ background-position: -48px -16px; }
+
+.zzz		{ background-position: 0 -32px; }
+.happy		{ background-position: -16px -32px; }
+.cool		{ background-position: -32px -32px; }
+.angry		{ background-position: -48px -32px; }
+
+.level-1 { color: #a94442; }
+.level-2 { color: #a94442; }
+.level-3 { color: #428bca; }
+.level-4 { color: #428bca; }

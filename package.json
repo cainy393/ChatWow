@@ -1,0 +1,31 @@
+{
+  "name": "chatwow",
+  "version": "0.1.0",
+  "description": "A multi-room chat website with dogecoin balance support.",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^1.0.6",
+    "coinstring": "^2.0.0",
+    "block_io": "^0.1.0",
+    "mysql": "^2.4.2",
+    "express": "x.x.x",
+    "toobusy": "x.x.x",
+    "morgan": "x.x.x",
+    "crypto": "x.x.x",
+    "bcrypt": "x.x.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cainy393/chatwow.git"
+  },
+  "author": "cainy393",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cainy393/chatwow/issues"
+  },
+  "homepage": "https://github.com/cainy393/chatwow#readme"
+}
